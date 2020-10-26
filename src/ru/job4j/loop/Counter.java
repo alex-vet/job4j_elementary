@@ -26,7 +26,6 @@ public class Counter {
         System.out.println(sum(10, 15));
         System.out.println(sum(1, 4));
         System.out.println(sum(13, 20));
-
         System.out.println(sumByEven(0, 10));
         System.out.println(sumByEven(3, 8));
         System.out.println(sumByEven(1, 1));
