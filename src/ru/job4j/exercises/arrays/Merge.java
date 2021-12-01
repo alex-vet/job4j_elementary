@@ -4,7 +4,6 @@ public class Merge {
     public static int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];
 
-        // first solution
         int indexLeft = 0, indexRight = 0, k = 0;
         while (indexLeft < left.length && indexRight < right.length) {
             if (left[indexLeft] < right[indexRight]) {
@@ -29,7 +28,6 @@ public class Merge {
             k++;
         }
 
-        //short solution
   /*      int i = 0, j = 0, k = 0;
         while (i < left.length && j < right.length)
             rsl[k++] = left[i] < right[j] ? left[i++] :  right[j++];
